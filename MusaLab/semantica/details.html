@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <article>
+            <section>
+                <header>
+                    <hgroup>
+                        <h1>Tag Details</h1>
+                        <h3>A cosa serve il tag details?</h3>
+                        <p>
+                            L’elemento details permette di raggruppare una serie di informazioni (ed eventualmente controlli), in <br>
+                            modo che possano essere mostrate a richiesta all’interno della pagina.  <br>
+                            Esso può opzionalmente includere come primo elemento figlio un tag summary,  <br>
+                            il cui scopo è quello di riportare un’informazione riepilogativa (una didascalia, una legenda ecc.),  <br>
+                            che descriva in qualche modo il contenuto complessivo. <br>
+                            L’esempio 2.15 si riferisce all’utilizzo dei due tag per mostrare  <br>
+                            un box informativo relativo al download di un file. In esso sono elencate  <br>
+                            le informazioni relative al file in fase di scaricamento, precedute dall’elemento summary.  <br>
+                        </p>
+                    </hgroup>
+                </header>
+        </section>
+        <section>
+            <p>
+                Come possiamo notare nell’esempio 2.15, l’elemento details prevede un attributo booleano open, che, <br>
+                se presente, rende il contenuto del tag visibile. Chiaramente possiamo impostare l’attributo open <br>
+                anche in modo programmatico.<br>
+                Una delle più interessanti modalità di impiego del tag details consiste nel mascherare alcuni <br>
+                controlli all’interno della pagina. Infatti, se non specifichiamo l’attributo booleano open, <br>
+                possiamo usare questo elemento come contenitore per una serie di controlli che, di default, <br>
+                non devono essere mostrati all’utente. In questo modo, possiamo rendere questi controlli visibili <br>
+                solamente in talune circostanze, per esempio, in risposta a certe azioni eseguite dall’utente o in <br>
+                base allo stato di navigazione, sostituendo in questo l’uso del tag div, con un conseguente aumento <br>
+                del livello di interattività, dell’usabilità generale e, ancora una volta, della semantica della pagina.<br>
+            </p>
+        </section>
+        <section>
+            <header>
+                <hgroup>
+                    <h3>Vediamo un esempio pratico</h3>
+                    <h4>ecco come si usa il tag details</h4>
+                </hgroup>
+            </header>
+            <details>
+                <summary>
+                    Download del file in corso .......
+                </summary>
+                <ul>
+                    <li>Nome File: nuovo.pdf</li>
+                    <li>Tipologia: PDF</li>
+                    <li>Dimansione: 190 MB</li>
+                </ul>
+            </details>
+        </section>
+        </article>
+    </div>
+</body> <br>
+</html>

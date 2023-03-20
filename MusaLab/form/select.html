@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select</title>
+</head>
+<body>
+    <div>
+        <article>
+            <header>
+                <h1>A Cosa serve il tag Select</h1>
+                <h3>I suoi Utilizzi</h3>
+            </header>
+            <p>
+                Il tag Select è un elemento del form, serve per far selezionare delle <br>
+                opzioni predefinite all'utente. <br>
+                Questo elemento ha due atributi fondamentali oltre quelli standard <br>
+                <ul>
+                    <li>size (Definisce quanti elementi vengono mostrati senza scroll)</li>
+                    <li>multiple (consente di selezionare più elementi)</li>
+                </ul>
+                Questo elemento ha l'unico figlio option che serve per specificare ogni singola<br>
+                opzione che l'utente sceglie. il suo attributo Value specifica quale valore inviare al server <br>
+                <p>Al tag select è necessario assegnare un nome con l'attributo "name", sia per il recupero dei <br>
+                    dati lato server che per la verifica delle selezione lato client. L'attributo "id", invece, <br>
+                    è obbligatorio ai fini del rispetto delle specifiche dell'XHTML.</p>
+            </p>
+        </article>
+    </div>
+    <div>
+        <hgroup>
+            <h1>Select Normale</h1>
+            <h3> Select senza attributi specifici</h3>
+        </hgroup>
+        <form action="">
+            <select name="auto" id="auto_marca">
+                <option value="AlfaRomeo">AlfaRomeo</option>
+                <option value="Ford">Ford</option>
+                <option value="Ferrari">Ferrari</option>
+            </select>
+        </form>
+    </div>
+    <div>
+        <hgroup>
+            <h3>Select con possibilità di scegliere pi opzioni</h3>
+            <form action="">
+                <select size="3" multiple name="auto2" id="auto_marca2">
+                    <option value="Alfaromeo">Alfaromeo</option>   
+                    <option value="ford">ford</option>   
+                    <option value="ferrari">ferrari</option>   
+                </select>
+            </form>
+        </hgroup>
+    </div>
+</body>
+</html>

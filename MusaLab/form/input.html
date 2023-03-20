@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input</title>
+</head>
+<body>
+    <H1>tutti gli attributi del tag input</H1>
+    <table border="3px">
+        <thead>
+            <tr>
+                <th>Tabella Riepilogativa degli Elementi di Input</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Elemento</td>
+                <td>Descrizione</td>
+                <td>Rappresentazione</td>
+                <td>Note</td>
+            </tr>
+            <tr>
+                <td>button</td>
+                <td>Bottone</td>
+                <td>
+                    <label for="Bottone">Bottone</label>
+                    <input type="button" name="Bottone" value="Bottone"></input>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Checkbox</td>   
+                <td>Casella checkbox</td>
+                <td>
+                    <label for="checkbox">Checkbox</label>
+                    <input type="checkbox" name="checkbox">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Color</td>
+                <td>Apre la casella dei colori</td>
+                <td>
+                    <label for="color">Color</label>
+                    <input type="color" name="color">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Date</td>
+                <td>Imposta una data</td>
+                <td>
+                    <label for="date">Data</label>
+                    <input type="date">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Date-Time</td>
+                <td>Imposta data e ora</td>
+                <td>
+                    <label for="date-time">Data Ora</label>
+                    <input type="datetime-local">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>Campo email con validazione</td>
+                <td>
+                    <label for="email">Email</label>
+                    <input type="email">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>File</td>
+                <td>File da caricare</td>
+                <td>
+                    <label for="file">File</label>
+                    <input type="file">
+                </td>
+                <td>Con l'atributo accept si può specificre l'estensione del file supportato</td>
+            </tr>
+            <tr>
+                <td>Hidden</td>
+                <td>Serve per mandare parametri nsascosti al server</td>
+                <td>
+                    <label for="hidden">Nascosto</label>
+                    <input type="hidden" value="impiccati">
+                </td>
+                <td>se analizzi la pagina vedrai che il messaggio nescosto è impicati</td>
+            </tr>
+            <tr>
+                <td>Immagine</td>
+                <td>mostra una immagine per il pulsante</td>
+                <td>
+                    <label for="image">image</label>
+                    <input type="image" name="image" src="/img/pp2.png">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Mese/anno</td>
+                <td>Controllo per immettere un mese e un anno</td>
+                <td>
+                    <label for="month">Month</label>
+                    <input type="month" name="month">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>number</td>
+                <td>Controllo per immettere un numero</td>
+                <td>
+                    <label for="number">number</label>
+                    <input type="num">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>Un campo che nasconde la password inserita</td>
+                <td>
+                    <label for="PAssword">Password</label>
+                    <input type="password" name="password" id="">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Input Range</td>
+                <td>Un campo che consente di inserire un numero entro un certo range</td>
+                <td>
+                    <label for="range">Scegli valore</label>
+                    <input type="range" name="range" id="range" value="1" min="1" max="10" onchange="result.value=parseInt(range.value)">
+                    <output name="result">1</output>
+                </td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+</body>
+</html>

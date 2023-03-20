@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation Form</title>
+</head>
+<body>
+    <div>
+        <article>
+            <hgroup>
+                <h1> La validazione dei form in html</h1>
+                <h2>Esempi di form</h2>
+            </hgroup>
+            <p>
+                <h4>Form con validazione disabilitata</h4>
+                <form action="#" novalidate >
+                    <label for="test">test</label>
+                    <input type="password">
+                    <input type="submit" value="submit">
+                </form>
+            </p>
+                <hr>
+            <p>
+                <h4> Form con password validata</h4>
+                <h5>In questo esempio si usa l'attributo pattern</h5>
+                <form action="#">
+                    <label for="test2">test password validata</label>
+                    <input type="password" required pattern="a-z">
+                    <input type="submit" value="submit">
+                </form>
+            </p>
+            <hr>
+        </article>
+    </div>
+</body>
+</html>

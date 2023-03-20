@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercitazione sul fotm</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Esercitazione con i form e le tabelle per impaginazione</h1>
+    </hgroup>
+    <div>
+        <fieldset>
+            <legend>Form di registrazione</legend>
+        <form id="registrazione" method="post"  action="https://postb.in/1678213301236-4089638239238" name="datiAna" validate>
+            <table>
+                <thead>
+                    <tr><th>Form Di Registrazione</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="nome">Inserisci il tuo nome</label><br>
+                            <input type="text" name="nome" placeholder="Nome" required autocomplete="on">
+                        </td>
+                        <td>
+                            <label for="cognome">Inserisci il tuo Cognome</label><br>
+                            <input type="text" name="cognome" placeholder="Cognome" required autocomplete="on">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="dataNascita">Inserisci la data di nsacita</label><br>
+                            <input type="date" name="dataNascita" placeholder="Data di Nascita" required autocomplete="on">
+                        </td>
+                        <td>
+                            <label for="luogoNascita">Luogo di Nascita</label><br>
+                            <input type="text" name="luogoNascita" placeholder="Città Nascita" required autocomplete="on">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mail">Indirizzo Email</label><br>
+                            <input type="email" name="email" placeholder="mariorossi@mail.it" required autocomplete="on">
+                        </td>
+                        <td>
+                            <label for="telefono">Numero di telefono</label><br>
+                            <input type="tel" name="telefono">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="site">Sito Internet</label><br>
+                            <input type="text" name="site">
+                        </td>
+                    </tr>
+                    
+                </tbody> 
+                <tfoot>
+                    <tr>
+                        <td>
+                            <button  type="submit" form="registrazione">Invia Dati</button><br>
+                            <button  type="reset" form="registrazione">reset</button><br>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </form>
+    </fieldset>
+    </div>
+</body>
+</html>

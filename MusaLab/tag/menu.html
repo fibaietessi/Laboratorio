@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <div>
+        <article>
+            <header>
+                <hgroup>
+                    <h1>Tag Menu</h1>
+                    <h3>Come funziona e a cosa serve il tag menu</h3>
+                </hgroup>
+                <p>
+                    L’elemento menu consente di realizzare toolbar e menu contestuali all’interno delle pagine e va usato come un <br>
+                    contenitore per raggruppare in modo strutturato diversi comandi. Il tag presenta due attributi, ovvero label, <br>
+                    che consente di indicare un’etichetta testuale, e type, che permette di definire la tipologia di menù. Quest’ultimo <br>
+                    attributo prevede tre valori possibili:<br>
+                    <ul>
+                        <li>contex: ’elemento menu rappresenta un menù contestuale e l’utente può interagire solo con i comandi in esso <br>
+                            contenuti, ma solo se il menù è attivo
+                        </li>
+                        <li>
+                            toolbar: l’elemento menu rappresenta una toolbar (barra degli strumenti), ovvero un elenco di comandi con cui <br>
+                            l’utente può interagire direttamente;
+                        </li>
+                        <li>
+                            list (default): l’elemento menu rappresenta una semplice lista non ordinata di elementi, ciascuno dei quali <br>
+                            corrisponde a un comando specifico che un utente può eseguire o attivare.
+                        </li>
+                    </ul>
+                </p>
+            </header>
+            <section>
+                <menu type="toolbar">
+                    <li>
+                        <menu label="Esempio" type="context">
+                            <button type="button" onclick="nuovo()">Nuovo</button>
+                            <button tuype="button" onclick="Apri()">Apri</button>
+                            <button tuype="button" onclick="Salva()">Salva</button>
+                        </menu>
+                    </li>
+                    <li>
+                        <menu label="Modifica" type="toolbar">
+                            <button type="button" onclick="taglia()">Taglia</button>
+                            <button type="button" onclick="taglia()">Copia</button>
+                            <button type="button" onclick="taglia()">Incolla</button>
+                        </menu>
+                    </li>
+                    <li>
+                        <menu label="Aiuto" type="list">
+                            <li><a href="#">Info</a></li>
+                            <li><a href="#">Aggiornamenti</a></li>
+                        </menu>
+                    </li>
+                </menu>
+            </section>
+        </article>
+    </div>
+</body>
+</html>
