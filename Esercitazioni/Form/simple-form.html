@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="simple-form.css">
+    <script src="simple-form.js" defer></script>
+
+    <title>Esercitazione sui form</title>
+</head>
+<body>
+    <main>
+        <div>
+            <form action="#">
+                <label for="nomeUtente" >Inserisci nome Utente</label><br>
+                <input name="nomeUtente" id="nomeUtente" type="text" required maxlength="10">
+                <div id="messageContainer">
+                    <span id="char-left"> </span>
+                </div>
+                <br>
+                <label for="nome">Inserisci nome </label><br>
+                <input id="nome" name="nome" placeholder="Mario" type="text" required><br>
+
+                <label for="cognome">Inserisci cognome </label><br>
+                <input id="cognome" placeholder="rossi" value="Rossi"  type="text" required><br>
+
+                <label for="password">Inserisci la Password</label><br>
+                <input name="password" id="password" type="password" required minlength="10" maxlength="16"><br>
+                
+                <label for="messaggioUtente" name="messaggioUtente">Inserisci Messaggio</label><br>
+                <input type="text" name="messaggio-utente" id="messaggio-utente" required maxlength="10">
+
+                <span id="caratteriRimanenti"></span><br>
+                <button type="reset">Cancella</button>
+                <button type="submit" id="invio">Invia Dati</button>
+            </form>
+            <p>
+                <span id="output"></span>
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div>
+        </div>
+    </footer>
+</body>
+</html>

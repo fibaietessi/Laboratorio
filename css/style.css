@@ -1,8 +1,9 @@
 @charset "utf-8";
-@import "extention1.css";
-@import "h2.css";
-/* @import "extention3.css"; */
-/* @import "extention4.css"; */
-@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import "font.css";
+@import "header.css";
+
+body{
+    font-family:montserrat;
+}
 
 
