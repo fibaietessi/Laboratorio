@@ -3,15 +3,20 @@
 @import "header.css";
 
 body{
+    background-color: #035AA6;
     font-family:montserrat;
 }
 link{
-    color: darkblue;
+    color:#1B8C4C;
 }
 .fa-camera{
-    color:red;
+    color:#023059;
 }
 
 .summary{
     font-weight: 900;
+    font-style:oblique;
+    font-kerning:none;
+    font-variant-alternates: normal;
+
 }
