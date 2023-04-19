@@ -3,16 +3,17 @@ h1 {
     font-family:'Roboto', sans-serif;
     /* font-size: 1.8em; */
     font-size: 5vw;
-    font-size: 4vmax;
+    font-size: 5vmax;
 }
 h2{
     /* font-size: 1.6em; */
     font-size: 4vw;
-    font-size: 3vmax;
+    font-size: 4vmax;
     font-style: inherit;
     color: rgb(255, 255, 255);
 }
 h3{
     font-size: 3vw;
+    font-size: 3vmax;
     /* font-size: 1.4em; */
 }
