@@ -5,18 +5,32 @@
 body{
     background-color: #035AA6;
     font-family:montserrat;
+    border-color: aliceblue;
 }
 link{
-    color:#1B8C4C;
+    color:hsl(146, 68%, 33%);
 }
 .fa-camera{
     color:#023059;
 }
 
-.summary{
-    font-weight: 900;
-    font-style:oblique;
-    font-kerning:none;
-    font-variant-alternates: normal;
-
+.sidebar{
+    background-color: hsl(146, 68%, 33%);
+    border: 5px;
+}
+.explanation{
+    border: 30px;
+    border-color: aliceblue;
+}
+.participation{
+    border: 10px;
+    border-color: aliceblue;
+}
+.benefits{
+    border: 10px;
+    border-color: aliceblue;
+}
+.requirements{
+    border: 10px;
+    border-color: aliceblue;
 }
