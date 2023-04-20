@@ -17,15 +17,18 @@ header{
     height: 50em;;
 }
 .summary{
-    /* ßfloat:left; */
+    width:25%;
+    float:left;
+    margin: 4em;
     border: 2px solid white ;
     text-align:center;
-    margin: 1em;
+    
 }
 
-.preamble{
-    /* float:left; */
-    margin:1em;
+.preamble_new{
+    float:left;
+    width:50%;
+    margin:4em;
     border: 2px solid white ;
 }
 
