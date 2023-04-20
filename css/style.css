@@ -15,9 +15,10 @@ header{
     border-bottom: 2px solid white ;
     text-align: center;
     height: 50em;
-p{
-    margin: 10px;;
-}
+    {
+p {
+    margin: 10px;
+
 }
 .summary{
     width:25%;
