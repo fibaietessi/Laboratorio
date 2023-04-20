@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import "reset.css";
 @import "font.css";
 @import "header.css";
 
@@ -10,10 +11,25 @@ body{
 link{
     color:hsl(146, 68%, 33%);
 }
-.fa-camera{
-    color:#023059;
+header{
+    border-bottom: 2px solid white ;
+    text-align: center;
+    height: 50em;;
 }
-
+#zen-summary{
+    float:left;
+    border: 2px solid white ;
+    text-align:center;
+    margin: 1em;
+}
+.preamble{
+    float:left;
+    margin:1em;
+    border: 2px solid white ;
+}
+.main{
+margin:1em;
+}
 .sidebar{
     margin:10em;
     background-color: hsl(146, 68%, 33%);
