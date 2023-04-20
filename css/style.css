@@ -1,5 +1,5 @@
 @charset "utf-8";
-@import "reset.css";
+/* @import "reset.css"; */
 @import "font.css";
 @import "header.css";
 
@@ -16,32 +16,37 @@ header{
     text-align: center;
     height: 50em;;
 }
-#zen-summary{
-    float:left;
+.summary{
+    /* ßfloat:left; */
     border: 2px solid white ;
     text-align:center;
     margin: 1em;
 }
+
 .preamble{
-    float:left;
+    /* float:left; */
     margin:1em;
     border: 2px solid white ;
 }
+
 .main{
 margin:1em;
 }
+
 .sidebar{
     margin:10em;
     background-color: hsl(146, 68%, 33%);
     border: solid 5px white;
     border-radius: 5px;
 }
+
 .explanation{
     padding:1em;
     margin:2em;
     border: solid 5px white;
     border-radius: 5px;
 }
+
 .participation{
     padding:1em;
     margin:2em;
