@@ -5,8 +5,6 @@ body{
     background: url("/Esercitazioni/media/php.png");
     background-repeat: no-repeat;
     background-size: cover;
-
-    /* background: scroll; */
 }
 link{
     color:hsl(146, 68%, 33%);
