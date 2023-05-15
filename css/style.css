@@ -7,14 +7,42 @@ body{
     background-color: #035AA6;
     font-family:montserrat;
     border-color: aliceblue;
+    background: url("/Esercitazioni/media/php.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background: scroll; */
 }
 link{
     color:hsl(146, 68%, 33%);
 }
 header{
+    position:relative;
     border-bottom: 2px solid white ;
     text-align: center;
-    height: 50em;}
+    height: 40em;
+    width: 40em;
+    border-radius: 50%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    /* Allineamento al centro orizzontale */
+    margin: 0 auto;
+
+    
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 p {
     margin: 10px;
 }
@@ -69,4 +97,17 @@ margin:1em;
     margin:2em;
     border: solid 5px white;
     border-radius: 5px;
+}
+#h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -101%);
+}
+#h2{
+    margin-top: 200px;;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -99%);
 }

@@ -1,0 +1,40 @@
+.clear-fix{
+    clear:both;
+}
+
+#container{
+    width:100%;
+    height: 400px;
+    background-color: lightblue;
+  
+    background-size: cover;
+}
+#inner_1{
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    background-color: lightcoral;
+    width: calc(30% - 1em);
+    padding: 1em;
+}
+#inner_2{
+    display: block;
+    float:left;
+    box-sizing: border-box;
+    background-color: rgb(120, 130, 89);
+    width: calc(30% - 1em);
+    padding: 1em;
+}
+#pagamenti{
+    background-clip:content-box;
+    padding: 150px;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+    border: solid 20px blue;
+    width: calc(30% - 1em);
+    background: url("1.png"),
+                url("2.png"),
+                linear-gradient(red, blue);
+
+}
