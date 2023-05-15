@@ -1,5 +1,5 @@
 body{
-    background: url('/Esercitazioni/media/sardegna.jpg');
+    background-image: url('/Esercitazioni/media/sardegna.jpg');
     /* background-color: #2d4355; */
     font-family:montserrat;
     border-color: aliceblue;
