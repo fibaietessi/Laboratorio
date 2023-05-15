@@ -3,10 +3,10 @@ body{
     /* background-color: #2d4355; */
     font-family:montserrat;
     border-color: aliceblue;
-    background-attachment: scroll;
+    /* background-attachment: scroll; */
     /* background: url("/Esercitazioni/media/php.png"); */
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
 }
 link{
     color:hsl(146, 68%, 33%);
