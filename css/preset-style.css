@@ -1,8 +1,10 @@
 body{
-    background-color: #2d4355;
+    background: url('/Esercitazioni/media/sardegna.jpg');
+    /* background-color: #2d4355; */
     font-family:montserrat;
     border-color: aliceblue;
-    background: url("/Esercitazioni/media/php.png");
+    background-attachment: scroll;
+    /* background: url("/Esercitazioni/media/php.png"); */
     background-repeat: no-repeat;
     background-size: cover;
 }
