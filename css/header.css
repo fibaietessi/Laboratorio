@@ -19,6 +19,6 @@ h3{
     /* font-size: 1.4em; */
 }
 #zen-supporting{
-    background-image: url('/css/media/auto.jpg'), linear-gradient(#1A2E35,#FF735C,#FFFFFF);
+    background-image: url('/css/media/auto.jpg'),linear-gradient(#1A2E35,#FF735C,#FFFFFF);
     background-size: contain;
 }

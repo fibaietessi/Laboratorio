@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import "reset.css";
+
+body{
+    background-color: #1A2E35;
+
+}
+
+main{
+    background-image: linear-gradient(#FF735C,#FF735C);
+}
+
+#bk1{
+    width: calc(40% - 2em);
+    height: 400px;
+    background-color: #FF735C;
+    border:solid #FFFFFF;
+    border-radius: 2em;
+}
+
+#bk2{
+    width: calc(40% - 2em);
+    height: 400px;
+    background-color: #FF735C;
+    border:solid #FFFFFF;
+    border-radius: 2em;
+}
