@@ -19,7 +19,6 @@ h3{
     /* font-size: 1.4em; */
 }
 #zen-supporting{
-    background-image: url('/css/media/SFONDO1.jpg'), url('/css/media/sfondo2.png');
-    background-position:left top, right top;
-    background-size: cover;
+    background-image: url('/css/media/auto.jpg'), linear-gradient(#1A2E35,#FF735C,#FFFFFF);
+    background-size: contain;
 }
