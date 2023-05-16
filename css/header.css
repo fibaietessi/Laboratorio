@@ -19,5 +19,7 @@ h3{
     /* font-size: 1.4em; */
 }
 #zen-supporting{
-    background-image: url('/Esercitazioni/media/sardegna.jpg');
+    background-image: url('/css/media/SFONDO1.jpg'), url('/css/media/sfondo2.png');
+    background-position:left top, right top;
+    background-size: cover;
 }
