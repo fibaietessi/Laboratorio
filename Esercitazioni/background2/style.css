@@ -21,9 +21,8 @@ main{
     position: relative;
     background:
         no-repeat 
-        url(/Esercitazioni/background2/media/polpen.png)center,
+        url(/Esercitazioni/background2/media/polpen.png) 30px bottom/40%,
         linear-gradient(45deg,#000000,#044BD1 )
-
     ;
     
 }
@@ -39,6 +38,7 @@ main{
     position: relative;
     background: 
         no-repeat
+        /* In questo modo posso assegnare una posizione diversa ad ogni elemento  */
         url(/Esercitazioni/background2/media/polpen.png)center,
         linear-gradient(90deg, #000000,#404BD1)
         ;
