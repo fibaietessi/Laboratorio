@@ -32,7 +32,7 @@ main{
     border:solid #FFFFFF;
     border-radius: 2%;
     float: left;
-    margin:calc(5%);
+    margin:auto 0;
     position: relative;
     background: 
         no-repeat
