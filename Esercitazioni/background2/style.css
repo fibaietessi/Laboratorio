@@ -11,17 +11,35 @@ main{
 }
 
 #bk1{
-    width: calc(40% - 2em);
+    width: calc(40% - 2%);
     height: 400px;
-    background-color: #FF735C;
+    /* background-color: #FF735C; */
     border:solid #FFFFFF;
-    border-radius: 2em;
+    border-radius: 2%;
+    float: left;
+    margin:calc(5%);
+    position: relative;
+    background:
+        no-repeat 
+        url(/Esercitazioni/background2/media/polpen.png)center,
+        linear-gradient(45deg,#000000,#044BD1 )
+
+    ;
+    
 }
 
 #bk2{
-    width: calc(40% - 2em);
+    width: calc(40% - 2%);
     height: 400px;
-    background-color: #FF735C;
+    /* background-color: #FF735C; */
     border:solid #FFFFFF;
-    border-radius: 2em;
+    border-radius: 2%;
+    float: left;
+    margin:calc(5%);
+    position: relative;
+    background: 
+        no-repeat
+        url(/Esercitazioni/background2/media/polpen.png)center,
+        linear-gradient(90deg, #000000,#404BD1)
+        ;
 }
