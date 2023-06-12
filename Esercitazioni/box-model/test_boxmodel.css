@@ -55,8 +55,9 @@ body{
     height:200px;
     border: 10px solid;
     border-color: #BF8D30;
-    background-color: #99B4BF;
-    
-    
+    background-color: #99B4BF; 
+}
+[casa]{
+    color:green;
 }
 
