@@ -4,15 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Selettori CSS</title>
 </head>
 <body>
     <main>
-        <div id="div-1"><h1>Selezione di un Elemento tramite ID</h1></div>
-        <div id="div-2"><h1>Selezione di un Elemento tramite una classe</h1></div>
-        <div id="div-3"><h1></h1>Selezione di un Elemento attributo</h1></div>
-        <div id="div-4"><h1></h1>Selezione di un Elemento Specifico </h1></div>
-        <div id="div-5"><h1></h1>Selezione di un Elemento tramite selettore Universale </h1></div>
+        <div id="div-1">
+            <h1>1 Selezione di un Elemento tramite ID</h1>
+            <p id="sel-id">Questo testo viene selezionato tramite selettore ID #sel-id</p>
+        </div>
+        <div id="div-2">
+            <h1>2 Selezione di un Elemento tramite una classe</h1>
+            <p class="sel-class">Questo testo viene selezionato tramite selettore classe .sel-class</p>
+        </div>
+        <div id="div-3">
+            <h1>3 Selezione di un Elemento attributo Specifico</h1>
+            <p attributo="">Questo testo viene selezionato tramite selettore attributo ["attributo"]</p>
+        </div>
+        <div id="div-4">
+            <h1>4 Selezione di un Elemento Generico </h1>
+            <h2>Questo testo viene selezionato tramite elemento h2, tutti gli elementi h2 avranno questa formatazione salvo diverse gerarchie di stile.</h2>
+        </div>
+        <div id="div-5">
+            <h1>5 Selezione di un Elemento tramite selettore Universale </h1>
+            <h3>Questo stile viene applicato a tutti gli elementi h3 del foglio di stile</h3>
+            <h3>Questo stile viene applicato a tutti gli elementi h3 del foglio di stile</h3>
+        </div>
+        <div id="div-6">
+            <h1>6 Selezione di un Elemento tramite valore attributo specifico</h1>
+            <p attributo="att-2">Questo testo viene selezionato tramite selettore attributo ["attributo"] che ha cocme valore ="att-2"</p>
+        </div>
+        <div id="div-7">
+            <h1>7 Selezione di un Elemento tramite inizio stringa valore attributo specifico</h1>
+            <p attributo="new-att-2">Questo testo viene selezionato tramite selettore attributo ["attributo"] che ha come valore una stringha che inizia con ="new"</p>
+        </div>
+        <div id="div-8">
+            <h1>8 Selezione tramite la parte finale del contenuto stringa del valore dell'attributo</h1>
+            <p attributo="att-2-end">Questo testo viene selezionato tramite selettore attributo ["attributo"] che ha come valore una stringha che finisce con ="end"</p>
+        </div>
+        <div id="div-9">
+            <h1>9 Selezione tramite una parte del contenuto stringa del valore dell'attributo</h1>
+            <p attributo-bis="att-2-13/-end">Questo testo viene selezionato tramite selettore attributo ["attributo"] che ha come valore una stringha che contiene con ="13/"</p>
+        </div>
     </main>
     <footer>
         <div id="footer"></div>
