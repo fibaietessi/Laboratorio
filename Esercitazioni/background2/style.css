@@ -40,3 +40,17 @@ main{
         url(/Esercitazioni/background2/media/polpen.png)center,
         linear-gradient(90deg, #000000,#404BD1);
 }
+
+#bk3{
+    width: calc(40% - 2%);
+    height: 200px;
+    border:solid #FFFFFF;
+    border-radius: 2%;
+    margin: 0 auto;
+    /* position: relative; */
+    background: 
+        no-repeat
+        /* In questo modo posso assegnare una posizione diversa ad ogni elemento  */
+        url(/Esercitazioni/background2/media/polpen.png)center,
+        linear-gradient(90deg, #000000,#404BD1);
+}
