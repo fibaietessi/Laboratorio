@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Multimediali</title>
+</head>
+<body>
+    <main>
+    <section>
+        <header>
+            <hgroup>
+                <h1>I contenuti multimediali</h1>
+                <h3>Drscrizione ed esempi dei contenuti multimediali</h3>
+            </hgroup>
+        </header>
+        <article>
+            <p>
+                il tag multimediale audio ha diversi Elementi: <br>
+                <ul>
+                    <li>source (serve per indicare la sorgente)</li>                  
+                </ul>
+                I suoi attributi invece sono: <br>
+                <ul>
+                    <li>autoplay (valore bolenao che serve per la aprtenza autoamtica dell'audio)</li>
+                    <li>controls (se attivo offre i controlli per l'audio)</li>
+                    <li>crossorigin</li>
+                    <li>loop</li>
+                    <li>preload</li>
+                </ul>
+            </p>
+        </article>
+    </section>   
+    <section>
+        <audio controls="" loop="1" muted="0" preload src="media/metallica.mp3">
+                <source src="media/metallica.mp3"  type="audio/mp3">
+        </audio>
+    </section>
+    <hr>
+    <section>
+        <hgroup>
+            <h3>In questo esempio che vediamo usiamo il tag VIDEO</h3>
+        </hgroup>
+        <video controls style="width: 600px;" preload autoplay src="media/video.mp4">
+            <source src="media/video.mp4" type="video/mp4">
+        </video>
+    </section>
+    </main>
+</body>
+</html>
