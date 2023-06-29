@@ -1,0 +1,37 @@
+/* table{
+    border-collapse: collapse;
+}
+td, tr{
+    border:2px solid red;
+}
+input[type="checked"]{
+    margin: 5px;
+}
+:link{
+    color: blueviolet;
+}
+a:hover{
+    color:brown;
+}
+input:checked  {
+   background-color: rgb(255, 0, 153);
+}   
+input:valid{
+    background-color: blue;
+}
+/* button[name="1"]:focus
+{
+    background-color: blueviolet;
+} 
+div.tilde ~ button{
+    background-color: chocolate !important;  
+ } */
+.descendant > div{
+    background-color: blueviolet;
+}
+ /* .descendant > div {
+    color: darkslategray;
+    margin: 5px;
+    border: solid black 2px;
+    background-color:red;
+ } */

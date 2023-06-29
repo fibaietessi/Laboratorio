@@ -1,0 +1,17 @@
+/* page-wrapper 
+    -> main supporting 
+        ->explanation
+        ->participation */
+        
+.page-wrapper > div{
+    
+    color:blueviolet;
+}
+/* .supporting > div{
+    
+    border: 2px solid blueviolet ;
+} */
+
+.participation :not(div){
+    color: black;
+}

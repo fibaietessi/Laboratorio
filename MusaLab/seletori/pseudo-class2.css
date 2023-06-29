@@ -1,0 +1,31 @@
+/* 
+body
+    div
+    div
+*/
+
+/* 
+esercizio1: 
+cambia colore agli elementi dispari della prima losta 
+  body > div:first-child > ul:nth-child(odd){
+    color:blueviolet
+}
+/*
+esercizio2: 
+cambia colore agli elementi pari della prima losta 
+  body > div:first-child > ul > li:nth-child(odd){
+    color:blue;
+}*/
+
+/* esercizio3: 
+cambia colore agli elementi pari della seconda lista 
+  body > div:nth-child(2) > ul > li:nth-child(even){
+    color: blueviolet ;
+  }
+ */
+/* esercizio4: 
+cambia colore al penultimo elemento pari della seconda lista */
+  body > div:nth-child(2) > ul > li:nth-child(2n){
+    color:red;
+  }
+ 

@@ -1,0 +1,19 @@
+ body > div {
+    width: 600px;
+    background-color: darkgray;
+    color: brown;
+ }
+.table{
+    position:relative;
+    border-collapse: collapse;
+    background-color: cadetblue;
+    border: 3px solid black;
+}
+tfoot{
+    margin-top:5px;
+    background-color: blueviolet;
+}
+td, tr{
+    border: 1px solid black; /* Definisce uno stile di bordo sottile nero per le celle */
+    padding: 8px;
+}

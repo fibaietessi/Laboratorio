@@ -1,0 +1,83 @@
+main > div{
+    width: 25%;
+    margin:10px;
+    float:left;
+    border: 5px;
+    border-radius: 10px;
+    border-color: #0076a3;
+    background-color: darkgray;
+}
+.cont-1 > button {
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 2px #0076a3;
+    background: #0095cd;
+    }
+div.cont-2 > div > button {
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 2px #00a30e;
+    background: #0095cd;
+}
+div.cont-3 >div + button{
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 2px #a30b00;
+    background: #0095cd;
+}
+
+div.cont-4 > button:nth-last-of-type(2){
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 2px #a3005a;
+    background: #0095cd;
+}
+
+div.cont-5 > :nth-last-child(2){
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 2px #a3005a;
+    background: #0095cd;
+}
+div.cont-6 > #button-1{
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    color: #fff;
+    padding: 10px 20px;
+    border: solid 2px #a3005a;
+    background: #0095cd;
+}
